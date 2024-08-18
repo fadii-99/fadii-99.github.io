@@ -1,37 +1,21 @@
 [
   {
-    "name": "Angular Conduit Signal",
-    "description": "Medium.com clone (called Conduit) was built using Angular version 16 with Signal API.",
+    "name": "PlotAnt",
+    "description": "Built the backend of 'Plotant,' a data analysis and visualization platform using Django and ReactJS. This platform empowers researchers to generate, customize, and export publication-ready charts. I implemented robust API endpoints to ensure seamless data processing and efficient chart generation.",
     "image": "assets/img/realworld.png",
-    "repoUrls": [
-      {
-        "tooltip": "RealWorld Conduit",
-        "url": "https://github.com/AndyT2503/angular-conduit-signals"
-      }
-    ],
     "linkDemo": {
-      "tooltip": "Demo RealWorld Conduit",
-      "url": "https://dev--taupe-pithivier-3c339a.netlify.app/#/"
+      "tooltip": "Visit",
+      "url": "https://plotant.com/"
     },
     "tech": [
-      "Angular",
-      "Typescript"
+      "Django",
+      "ReactJS"
     ]
   },
   {
-    "name": "E-commerce Shop",
-    "description": "E-commerce shop using Angular and .Net Core. Users can search, buy favorite products. Provide admin's management module, notification service that can send web notification or email notification.",
-    "image": "assets/img/cellphones.png",
-    "repoUrls": [
-      {
-        "tooltip": "Front-end",
-        "url": "https://github.com/AndyT2503/ecommerceFE"
-      },
-      {
-        "tooltip": "Back-end",
-        "url": "https://github.com/AndyT2503/ecommerceBE"
-      }
-    ],
+    "name": "Design Recommendation Chatbot",
+    "description": "Developed a design recommendation chatbot using Django that intelligently suggests design tools based on user preferences and project requirements. The chatbot provides tailored recommendations by analyzing user inputs, helping designers efficiently choose the most suitable tools for their creative projects.",
+    "image": "assets/img/dr.jpeg",
     "tech": [
       "Angular",
       "MailKit",
@@ -40,18 +24,52 @@
     ]
   },
   {
-    "name": "Ngx-Danmaku",
-    "description": "Ngx-Danmaku is the Angular library to display flying comments on iframe element.",
-    "image": "assets/img/danmaku.png",
-    "repoUrls": [
+    "name": "CentralPOS",
+    "description": "Built CentralPOS, a Laravel-based Point of Sale system that optimized sales, inventory, and staff management, enhancing operational efficiency and revenue. Key features include customizable product catalogs, secure payment processing, and integrated order tracking for a seamless customer experience.",
+    "image": "assets/img/ch.png",
+    "linkDemo": 
       {
-        "tooltip": "Ngx-Danmaku",
-        "url": "https://github.com/AndyT2503/ngx-danmanku"
+        "tooltip": "Visit",
+        "url": "https://crusthouse.com.pk/"
       }
-    ],
+    ,
     "tech": [
-      "Angular",
-      "Typescript"
+      "Laravel",
+      "JavaScript",
+      "HTML/CSS "
+    ]
+  },
+  {
+    "name": "RAG with SQL Agent",
+    "description": "Developed a Streamlit-based interface that integrates LangChain and Large Language Models (LLMs) to allow users to query databases with natural language prompts. Implemented a SQL agent that accurately translates user queries into executable SQL commands, enabling seamless interaction with the database. This solution enhances data accessibility and simplifies complex database operations.",
+    "image": "assets/img/rag.png",
+    "linkDemo": 
+      {
+        "tooltip": "Visit",
+        "url": "http://204.12.253.244:8503/"
+      }
+    ,
+    "tech": [
+      "StreamLit",
+      "Langchain",
+      "OpenAI"
+    ]
+  },
+  {
+    "name": "JobHuntAI",
+    "description": "Built Job search platform where user upload resume and by extracting data from the resume we scrap the jobs related to the resume.",
+    "image": "assets/img/jobhunt.png",
+    "linkDemo": 
+      {
+        "tooltip": "Visit",
+        "url": "http://48.216.217.116:8082/"
+      }
+    ,
+    "tech": [
+      "ReactJS",
+      "FastAPI",
+      "Langchain",
+      "Web-Scrap"
     ]
   }
 ]
