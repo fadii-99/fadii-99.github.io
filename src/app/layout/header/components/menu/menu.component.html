@@ -1,0 +1,45 @@
+@if (!isMobile()) {
+  <div class="menu">
+    <ng-container *ngTemplateOutlet="menu"></ng-container>
+  </div>
+}
+
+@if (isMobile()) {
+  <div>
+    <i
+      (click)="isOpenDrawerMenu = true"
+      class="hamburger-menu"
+      nz-icon
+      nzType="menu"
+      nzTheme="outline"
+    ></i>
+  </div>
+}
+
+<app-drawer
+  [(isOpen)]="isOpenDrawerMenu"
+  position="right"
+  width="70%"
+  [content]="menu"
+></app-drawer>
+
+<ng-template #menu>
+  <ol [ngClass]="{ 'menu-desktop': !isMobile(), 'menu-mobile': isMobile() }">
+    @for (item of listMenu; track $index) {
+      @if ($index != 3) {
+      <li>
+        <a
+          #menuItem
+          (click)="onClickMenu()"
+          [href]="item.link"
+          >{{ item.name }}</a
+          >
+        </li>
+      }
+      }
+      <a href="content/Fawad_resume.pdf" download>
+        <button class="animation-btn">Resume</button>
+      </a>
+    </ol>
+  </ng-template>
+

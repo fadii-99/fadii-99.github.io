@@ -1,0 +1,22 @@
+#logo {
+  color: var(--primary-color);
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.lgt {
+  width: 100%;
+  height: 100%;
+  fill: currentcolor;
+  vertical-align: middle;
+  fill: none;
+}
+.lgn {
+  width: 200%;
+  height: 150%;
+  fill: currentcolor;
+  vertical-align: middle;
+  fill: none;
+}

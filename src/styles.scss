@@ -1,0 +1,82 @@
+@import "color";
+@import "font";
+@import "font-size";
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+body {
+  background-color: var(--base-color);
+  font-family: var(--font-sans);
+
+}
+
+markdown {
+  color: var(--default-color);
+  font-size: var(--fs-lg);
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--default-color);
+  }
+
+  blockquote {
+    background-color: var(--light-navy);
+    border-left: 5px solid var(--primary-color);
+    padding: 20px;
+    width: fit-content;
+
+    p {
+      margin-top: unset;
+      margin-bottom: unset;
+    }
+  }
+
+  code {
+    background-color: var(--light-navy);
+  }
+
+  pre {
+    background-color: var(--light-navy);
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  table,th,td {
+    border: 1px solid whitesmoke;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+
+.animation-btn {
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  &:hover {
+    outline: none;
+    box-shadow: 3px 3px 0 0 var(--primary-color);
+    transform: translate(-4px, -4px);
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--tertiary-color);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tertiary-color);
+}
