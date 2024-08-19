@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_portfolio=self.webpackChunknew_portfolio||[]).push([[249],{3249:(l,n,o)=>{o.r(n),o.d(n,{mainRoutes:()=>t});const t=[{path:"",loadComponent:()=>Promise.all([o.e(21),o.e(789)]).then(o.bind(o,4789)).then(s=>s.HomeComponent)}]}}]);

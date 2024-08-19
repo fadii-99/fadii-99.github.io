@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
-    "title": "Deep understanding about Expression has changed after it was checked",
-    "type": "Angular",
-    "date": "27 October 2022",
-    "description": "Explain why Angular throw Expression has changed after it was checked"
+    "title": "Cpanel",
+    "type": "Shared Hosting",
+    "description": "A web-based control panel for managing website hosting on shared servers.",
+    "img": "cpanel.jpg"
   },
   {
     "id": 2,
-    "title": "What is NgZone and How it trigger Change Detection",
-    "type": "Angular",
-    "date": "25 February 2023",
-    "description": "Explain how ngZone work in Angular"
+    "title": "VPS Server",
+    "type": "Cloud Computing",
+    "description": "A virtual private server offering dedicated resources in a cloud computing environment.",
+    "img": "assets/img/vps.png"
   },
   {
     "id": 3,
-    "title": "Fix 404 error when refreshing Github Page with Custom Builder",
-    "type": "Angular",
-    "date": "28 Match 2023",
-    "description": "Instruction for creating Custom Angular CLI Builder"
+    "title": "Python",
+    "type": "Programming Language",
+    "description": "Widely used with frameworks like Langchain, Transformers,  Django, FastAPI, Flask, and Streamlit for web development and data-driven applications.",
+    "img": "assets/img/python.png"
   },
   {
     "id": 4,
-    "title": "The Power of Conditional Type in Angular",
-    "type": "Angular",
-    "date": "28 August 2023",
-    "description": "Explore how conditional type is useful in Angular"
+    "title": "PHP",
+    "type": "Laravel Framework",
+    "description": "A server-side scripting language used within the Laravel framework for web development.",
+    "img": "assets/img/laravel.png"
   }
 ]
